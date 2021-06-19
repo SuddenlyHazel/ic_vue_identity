@@ -1,0 +1,24 @@
+{
+    "canisters": {
+      "internet_identity": {
+        "type": "custom",
+        "candid": "internet_identity.did",
+        "wasm": "internet_identity.wasm",
+        "build": "echo sending internet identity",
+        "source": ["dist"]
+      }
+    },
+    "defaults": {
+      "build": {
+        "packtool": ""
+      }
+    },
+    "dfx": "0.7.1",
+    "networks": {
+      "local": {
+        "bind": "127.0.0.1:8000",
+        "type": "ephemeral"
+      }
+    },
+    "version": 1
+  }

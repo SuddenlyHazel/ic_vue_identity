@@ -1,0 +1,27 @@
+{
+  "name": "short_it",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "watch": "ic-dfx-watch"
+  },
+  "dependencies": {
+    "@dfinity/agent": "0.8.7",
+    "@dfinity/auth-client": "^0.8.9",
+    "@dfinity/authentication": "0.8.7",
+    "@headlessui/vue": "^1.2.0",
+    "@heroicons/vue": "^1.0.1",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.6",
+    "ic-dfx-utils": "^0.0.14",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.2",
+    "vite": "^2.3.2"
+  }
+}
